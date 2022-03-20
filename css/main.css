@@ -300,6 +300,11 @@ img {
     margin-bottom: 14px;
 }
 
+.news__main-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
 .news__title {
     font-size: 24px;
     margin-bottom: 50px;
