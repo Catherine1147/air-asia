@@ -98,7 +98,6 @@ img {
 
 .site-nav__link:hover {
     color: #da0100;
-
 }
 
 .logo {
@@ -459,6 +458,7 @@ img {
     display: block;
     width: 36px;
     height: 36px;
+    background-size: 100%;
 }
 
 .share__link--tg {
