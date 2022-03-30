@@ -1,0 +1,18 @@
+.promo__block {
+    padding-top: 20px; 
+    margin-bottom: 247px;
+    width: 515px;
+}
+
+.promo__title {
+    margin-bottom: 25px;
+}
+
+.promo__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.promo__button:hover {
+    background-color: #da0100;
+}

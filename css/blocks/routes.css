@@ -1,0 +1,59 @@
+.routes {
+    padding-top: 95px;
+    background-color: #f2f2f2;
+}
+
+.routes__image {
+    height: 100%;
+}
+
+.routes__block {
+    min-width: 650px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.routes__title {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.routes__title--monkey {
+    margin-bottom: 25px;
+}
+
+.routes__text {
+    color: #303030;
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 37px;
+}
+
+.routes__button {
+    background-color: #fff;
+    color: #f5170e;
+    border: 1px solid #f5170e;
+}
+
+.routes__button--active,
+.routes__button:hover {
+    background-color: #f5170e;
+    color: #ffffff;
+}
+
+.routes__item {
+    display: flex;
+    gap: 60px;
+}
+
+.routes__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.routes__list {
+    margin-bottom: 63px;
+}
