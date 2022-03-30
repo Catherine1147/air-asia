@@ -6,16 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/layout/normalize.css">
+    <link rel="stylesheet" href="css/layout/base.css">
+    <link rel="stylesheet" href="css/blocks/page-header.css">
+    <link rel="stylesheet" href="css/blocks/site-nav.css">
+    <link rel="stylesheet" href="css/blocks/contacts.css">
+    <link rel="stylesheet" href="css/blocks/promo.css">
+    <link rel="stylesheet" href="css/blocks/offers.css">
+    <link rel="stylesheet" href="css/blocks/offer.css">
+    <link rel="stylesheet" href="css/blocks/icon.css">
+    <link rel="stylesheet" href="css/blocks/section-title.css">
+    <link rel="stylesheet" href="css/blocks/news.css">
+    <link rel="stylesheet" href="css/blocks/paginator.css">
+    <link rel="stylesheet" href="css/blocks/about-us.css">
+    <link rel="stylesheet" href="css/blocks/picture.css">
+    <link rel="stylesheet" href="css/blocks/page-footer.css">
+    <link rel="stylesheet" href="css/blocks/share.css">
+    <link rel="stylesheet" href="css/blocks/visually-hidden.css">
+    <link rel="stylesheet" href="css/blocks/line.css">
+    <link rel="stylesheet" href="css/blocks/page-title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Главная</title>
 </head>
 
 <body class="page-body">
-    <div class="wrapper">
-        <header class="page-header">
+    <div class="main-wrapper">
+        <header class="page-header page-header--main">
             <div class="page-header__container container">
-                <div class="menu-container">
+                <div class="page-header__menu-container">
                     <a href="#" class="page-header__logo logo">
                         <img src="img/logo.png" alt="логотип" class="logo__image">
                     </a>
@@ -25,7 +44,7 @@
                                 <a class="site-nav__link">Главная</a>
                             </li>
                             <li>
-                                <a href="#" class="site-nav__link">Услуги</a>
+                                <a href="services.html" class="site-nav__link">Услуги</a>
                             </li>
                             <li>
                                 <a href="#" class="site-nav__link">Отзывы</a>
@@ -43,7 +62,7 @@
         <main class="page-main">
             <section class="promo container">
                 <div class="promo__block">
-                    <h1 class="promo__title">Авторские туры по Азии</h1>
+                    <h1 class="promo__title page-title">Авторские туры по Азии</h1>
                     <p class="promo__text">Открой для себя Азию</p>
                     <a href="#" class="promo__button button">Подробнее</a>
                 </div>
@@ -80,7 +99,7 @@
                         </div>
                     </li>
                     <li class="offers__item offer">
-                        <img src="img/ocean.jpg" alt="Индонезия" class="offer__image">
+                        <img src="img/ocean.jpg" alt="Индонезия" class="offer__image offer__image--ocean">
                         <div class="offer__wrapper">
                             <h3 class="offer__title">Индонезия</h3>
                             <ul class="offer__services">
@@ -119,7 +138,7 @@
                     </li>
                 </ul>
 
-                <div class="paginator">
+                <div class="news__paginator paginator paginator--main-page">
                     <div class="paginator__display">Страница 1 из 7</div>
                     <ul class="paginator__list">
                         <li class="paginator__item">
@@ -148,7 +167,7 @@
                 </div>
             </section>
 
-            <section class="about-us about-us-wrapper container picture">
+            <section class="about-us about-wrapper container picture">
                 <div class="about-us__container">
                     <div class="about-us__content-block">
                         <h2 class="about-us__title">О нас</h2>
@@ -163,53 +182,55 @@
             </section>
 
         </main>
-        <footer class="page-footer container line">
-            <div class="page-footer__container">
-                <div class="page-footer__nav-container">
-                    <a class="page-footer__logo logo">
-                        <img src="img/logo.png" alt="логотип" class="logo__image">
-                    </a>
-                    <nav class="site-nav">
-                        <ul class="site-nav__list">
-                            <li class="site-nav__item">
-                                <a class="site-nav__link">Главная</a>
+        <div class="wrapper-footer">
+            <footer class="page-footer container line">
+                <div class="page-footer__container">
+                    <div class="page-footer__nav-container">
+                        <a class="page-footer__logo logo">
+                            <img src="img/logo.png" alt="логотип" class="logo__image">
+                        </a>
+                        <nav class="site-nav page-footer__nav">
+                            <ul class="site-nav__list">
+                                <li class="site-nav__item">
+                                    <a class="site-nav__link">Главная</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="services.html" class="site-nav__link">Услуги</a>
+                                </li>
+                                <li class="site-nav__item">
+                                    <a href="#" class="site-nav__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <section class="page-footer__contacts contacts">
+                        <h2 class="visually-hidden">Контакты</h2>
+                        <ul class="contacts__list share">
+                            <li class="share__item">
+                                <a href="#" class="share__link share__link--tg">
+                                </a>
                             </li>
-                            <li class="site-nav__item">
-                                <a href="#" class="site-nav__link">Услуги</a>
+                            <li class="share__item">
+                                <a href="#" class="share__link share__link--vk">
+                                </a>
                             </li>
-                            <li class="site-nav__item">
-                                <a href="#" class="site-nav__link">Отзывы</a>
+                            <li class="share__item">
+                                <a href="#" class="share__link share__link--fb">
+                                </a>
+                            </li>
+                            <li class="share__item">
+                                <a href="#" class="share__link share__link--inst">
+                                </a>
                             </li>
                         </ul>
-                    </nav>
+                        <div class="contacts__tel page-footer__tel">
+                            <p class="contacts__description page-footer__description">Бесплатный звонок по России</p>
+                            <a href="tel:+78007003030" class="contacts__link">8 800 700 30 30</a>
+                        </div>
+                    </section>
                 </div>
-                <section class="page-footer__contacts contacts">
-                    <h2 class="visually-hidden">Контакты</h2>
-                    <ul class="contacts__list share">
-                        <li class="share__item">
-                            <a href="#" class="share__link share__link--tg">
-                            </a>
-                        </li>
-                        <li class="share__item">
-                            <a href="#" class="share__link share__link--vk">
-                            </a>
-                        </li>
-                        <li class="share__item">
-                            <a href="#" class="share__link share__link--fb">
-                            </a>
-                        </li>
-                        <li class="share__item">
-                            <a href="#" class="share__link share__link--inst">
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="contacts__tel">
-                        <p class="contacts__description">Бесплатный звонок по России</p>
-                        <a href="tel:+78007003030" class="contacts__link">8 800 700 30 30</a>
-                    </div>
-                </section>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
 </body>
 
