@@ -1,8 +1,0 @@
-.line:before {
-    content: "";
-    display: block;
-    width: 1142px;
-    height: 1px;
-    background-color: #fff;
-    opacity: 0.1;
-}
