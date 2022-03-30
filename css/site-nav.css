@@ -1,0 +1,12 @@
+.site-nav__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 265px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.site-nav__link:hover {
+    color: #da0100;
+}

@@ -1,0 +1,7 @@
+.top-line {
+    background-image: url("../../img/headline1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+}

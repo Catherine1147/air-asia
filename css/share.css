@@ -1,0 +1,45 @@
+.share {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 175px;
+}
+
+.share__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-size: 100%;
+}
+
+.share__link--tg {
+    background-image: url("../../img/t.png");
+}
+
+.share__link--tg:hover {
+    background-image: url("../../img/t-hover.png");
+}
+
+.share__link--vk {
+    background-image: url("../../img/vk.png");
+}
+
+.share__link--vk:hover {
+    background-image: url("../../img/vk-hover.png");
+}
+
+.share__link--fb {
+    background-image: url("../../img/fb.png");
+}
+
+.share__link--fb:hover {
+    background-image: url("../../img/fb-hover.png");
+}
+
+.share__link--inst {
+    background-image: url("../../img/in.png");
+}
+
+.share__link--inst:hover {
+    background-image: url("../../img/in-hover.png");
+}

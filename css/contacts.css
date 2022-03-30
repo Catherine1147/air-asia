@@ -1,0 +1,27 @@
+.contacts__link {
+    font-size: 26px;
+    line-height: 1;
+}
+
+.contacts__text {
+    font-size: 13px;
+    color: #98a4a8;
+    text-decoration: underline;
+}
+
+.contacts__text:hover {
+    color: #fff;
+}
+
+.contacts__description {
+    font-size: 11px;
+    text-align: right;
+    color: #9a9a9a;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts__tel {
+    min-width: 200px;
+    padding-left: 50px;
+}
