@@ -8,7 +8,7 @@
 }
 
 .services-paginator__link--active,
-.services-paginator__link:active {
+.services-paginator__link:hover {
     background-color: #f5170e;
     color: #ffffff;
 }
